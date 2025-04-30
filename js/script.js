@@ -46,5 +46,18 @@ let myNumber = 6;
 // alert("total com desconto: " + myCart);
 
 let moduleName = "Tecnicas Avançadas de Programação";
-alert("A primeira letra do módulo é " + moduleName[0]);
-alert(moduleName[8]);
+//alert("A primeira letra do módulo é " + moduleName[0]);
+//alert(moduleName[9]);
+
+console.log(moduleName);
+console.log(moduleName[10]);
+console.log("o tamanho da variável é " + moduleName.length);
+
+let myFirstName = "Sara";
+let mySecondName = "Monteiro";
+let fullName = myFirstName+' '+mySecondName;
+
+let myEmail = "saraMarmonteiro";
+
+console.log(myEmail.toLowerCase());
+
