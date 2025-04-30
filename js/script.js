@@ -59,5 +59,8 @@ let fullName = myFirstName+' '+mySecondName;
 
 let myEmail = "saraMarmonteiro";
 
-console.log(myEmail.toLowerCase());
+console.log(myEmail.indexOf('M'));
+
+let myFavoriteModule = prompt('Qual é o teu módulo preferido?');
+
 
