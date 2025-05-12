@@ -55,12 +55,20 @@ console.log("o tamanho da variável é " + moduleName.length);
 
 let myFirstName = "Sara";
 let mySecondName = "Monteiro";
-let fullName = myFirstName+' '+mySecondName;
+let fullName = myFirstName + " " + mySecondName;
 
 let myEmail = "saraMarmonteiro";
 
-console.log(myEmail.indexOf('M'));
+console.log(myEmail.indexOf("M"));
 
-let myFavoriteModule = prompt('Qual é o teu módulo preferido?');
+//let myFavoriteModule = prompt('Qual é o teu módulo preferido?');
+const LEGAL_AGE = 18;
+let userAge = prompt("qual é a tua idade?");
 
-
+if (userAge < LEGAL_AGE) {
+  alert("Ainda não tens idade para votar!");
+} else if (userAge == LEGAL_AGE) {
+  alert("vais-te estrear, yay");
+} else {
+  alert("vota em consciência");
+}
