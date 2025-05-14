@@ -62,13 +62,50 @@ let myEmail = "saraMarmonteiro";
 console.log(myEmail.indexOf("M"));
 
 //let myFavoriteModule = prompt('Qual é o teu módulo preferido?');
-const LEGAL_AGE = 18;
-let userAge = prompt("qual é a tua idade?");
+// const LEGAL_AGE = 18;
+// let userAge = prompt("qual é a tua idade?");
 
-if (userAge < LEGAL_AGE) {
-  alert("Ainda não tens idade para votar!");
-} else if (userAge == LEGAL_AGE) {
-  alert("vais-te estrear, yay");
-} else {
-  alert("vota em consciência");
+// if (userAge < LEGAL_AGE) {
+//   alert("Ainda não tens idade para votar!");
+// } else if (userAge == LEGAL_AGE) {
+//   alert("vais-te estrear, yay");
+// } else {
+//   alert("vota em consciência");
+// }
+let alunos = ['Isabele', 'Luís', 'Hugo', 'Bárbara'];
+alunos.pop();
+
+//alunos.push('Tiago');
+//alunos.push('Milena');
+console.log(alunos)
+
+let shoppingList = [
+    ["batatas p/cozer", "batatas p/fritar"],
+    "Feijão"
+];
+//shoppingList.push("chocolates")
+// let item = prompt("que item quer adicionar na lista?")
+// shoppingList.push(item)
+// console.log(shoppingList)
+
+//Arrays: outros métodos
+// let mix = alunos.concat(shoppingList)
+// console.log(mix)
+//o primeiro[], [0] correponde ao array de batatas
+//o segundo [], [1] corresponde à posição dentro do array de batatas
+//o terceiro[], [10] corresponde ao f porque ele entra dentro da string
+// console.log(shoppingList[0][1][10]);
+
+//OBJECTOS
+
+let userData = {
+    fName: 'Sara',
+    job: 'programadora',
+    age: 39,
+    hobbies:['ler', 'musica']
 }
+//assignar um novo valor à key job
+userData.job = 'formadora'
+
+//aceder ao array de hobbies à música
+console.log(userData.hobbies[1])

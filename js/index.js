@@ -41,10 +41,29 @@ console.log("a palavra final é " + facialHair + " e o exercício está pronto")
 //     alert('força nisso');
 // }
 
-let password = prompt('indique uma pass com pelo menos 6caracteres');
+//let password = prompt('indique uma pass com pelo menos 6caracteres');
 
-if(password.length <6){
-    alert('atenção que não tens 6 caracteres');
-}else{
-    alert('password ok');
-}
+// if(password.length <6){
+//     alert('atenção que não tens 6 caracteres');
+// }else{
+//     alert('password ok');
+// }
+
+//pp 43
+// let planets = ["Mercúrio", "Vénus", "Terra", "Mart", "Jupiter", "Saturno", "Urano", "Neptuno", "Plutão"];
+// planets[3] = "Marte";
+// planets.pop();
+// planets.unshift("Novo Planeta")
+// console.log(planets)
+
+//pp 47
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+airplaneSeats[3][1] = "Sara"
+console.log(airplaneSeats)
+
