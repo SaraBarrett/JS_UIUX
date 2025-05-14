@@ -57,13 +57,23 @@ console.log("a palavra final é " + facialHair + " e o exercício está pronto")
 // console.log(planets)
 
 //pp 47
-const airplaneSeats = [
-    ['Ruth', 'Anthony', 'Stevie'],
-    ['Amelia', 'Pedro', 'Maya'],
-    ['Xavier', 'Ananya', 'Luis'],
-    ['Luke', null, 'Deniz'],
-    ['Rin', 'Sakura', 'Francisco']
-];
-airplaneSeats[3][1] = "Sara"
-console.log(airplaneSeats)
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+// ];
+// airplaneSeats[3][1] = "Sara"
+// console.log(airplaneSeats)
 
+//pp 50
+let product = {
+    productname: "caneta", 
+    inStock: true, 
+    price: 1.99, 
+    colors:["vermelho", "azul", "verde"]
+}
+
+product.price= 2.55;
+console.log("o produto custa "+product.price+" e é da cor "+product.colors[2])

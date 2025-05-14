@@ -98,14 +98,36 @@ let shoppingList = [
 
 //OBJECTOS
 
-let userData = {
-    fName: 'Sara',
-    job: 'programadora',
-    age: 39,
-    hobbies:['ler', 'musica']
-}
-//assignar um novo valor à key job
-userData.job = 'formadora'
+// let userData = {
+//     fName: 'Sara',
+//     job: 'programadora',
+//     age: 39,
+//     hobbies:['ler', 'musica']
+// }
+// //assignar um novo valor à key job
+// userData.job = 'formadora'
 
-//aceder ao array de hobbies à música
-console.log(userData.hobbies[1])
+// //aceder ao array de hobbies à música
+// console.log(userData.hobbies[1])
+
+// let movies = ["pulp fiction", "casablanca", "tempos modernos", "laranja mecanica", "titanic"];
+
+// // console.log("o filme é "+ movies[0])
+// // console.log("o filme é "+ movies[1])
+// // console.log("o filme é "+ movies[2])
+// // console.log("o filme é "+ movies[3])
+
+// for(let element in movies){
+//     console.log("o filme é "+ element)
+// }
+
+let quizz = ["ao nome", "à morada", "ao nif", "à profissão"];
+
+
+for(let question of quizz){
+    prompt("responde "+ question);
+}
+
+
+
+
