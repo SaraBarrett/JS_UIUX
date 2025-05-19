@@ -110,24 +110,30 @@ let shoppingList = [
 // //aceder ao array de hobbies à música
 // console.log(userData.hobbies[1])
 
-// let movies = ["pulp fiction", "casablanca", "tempos modernos", "laranja mecanica", "titanic"];
+//let movies = ["pulp fiction", "casablanca", "tempos modernos", "laranja mecanica", "titanic", "outroFilme"];
 
-// // console.log("o filme é "+ movies[0])
-// // console.log("o filme é "+ movies[1])
-// // console.log("o filme é "+ movies[2])
-// // console.log("o filme é "+ movies[3])
+//console.log("o filme é "+ movies[0])
+//console.log("o filme é "+ movies[1])
+//console.log("o filme é "+ movies[2])
+// console.log("o filme é "+ movies[3])
 
-// for(let element in movies){
+// for(let element of movies){
 //     console.log("o filme é "+ element)
 // }
 
-let quizz = ["ao nome", "à morada", "ao nif", "à profissão"];
+// let quizz = ["ao nome", "à morada", "ao nif", "à profissão"];
 
 
-for(let question of quizz){
-    prompt("responde "+ question);
-}
+// for(let question of quizz){
+//     prompt("responde "+ question);
+// }
 
 
+// let userPass = prompt('Insira uma pass com o mínimo de 6 caracteres');
 
 
+// while(userPass.length < 6) {
+//     userPass = prompt('Password Inválida. Insira uma pass com o mínimo de 6 caracteres');
+// }
+
+// alert('pass ok!');

@@ -68,12 +68,36 @@ console.log("a palavra final é " + facialHair + " e o exercício está pronto")
 // console.log(airplaneSeats)
 
 //pp 50
-let product = {
-    productname: "caneta", 
-    inStock: true, 
-    price: 1.99, 
-    colors:["vermelho", "azul", "verde"]
-}
+// let product = {
+//     productname: "caneta", 
+//     inStock: true, 
+//     price: 1.99, 
+//     colors:["vermelho", "azul", "verde"]
+// }
 
-product.price= 2.55;
-console.log("o produto custa "+product.price+" e é da cor "+product.colors[2])
+// product.price= 2.55;
+// console.log("o produto custa "+product.price+" e é da cor "+product.colors[2])
+
+//exercício extra
+// let modules = ['css', 'html', 'js'];
+
+// let newModule = prompt('qual é novo módulo?'); 
+// modules.push(newModule);
+
+// for(let module of modules){
+//     console.log("o módulo é "+ module)
+// }
+
+let shoppingList = [];
+let item = prompt('o que queres comprar?');
+
+
+while(item.toLowerCase().trim() != 'fim'){
+    shoppingList.push(item)
+    item =prompt('qual é o outro item? se estiver completo coloca fim')
+}
+console.log(shoppingList)
+
+for(let element of shoppingList){
+    console.log("o item a comprar é "+element)
+}
