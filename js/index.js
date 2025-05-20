@@ -91,7 +91,7 @@ console.log("a palavra final é " + facialHair + " e o exercício está pronto")
 // let shoppingList = [];
 // let item = prompt("o que queres comprar?");
 
-// while (item.toLowerCase().trim() != "fim") {
+//while (item.toLowerCase().trim() != "fim") {
 //   if (item != 'notadd') {
 //     shoppingList.push(item);
 //   }
