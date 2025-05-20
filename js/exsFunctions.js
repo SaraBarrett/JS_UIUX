@@ -21,3 +21,13 @@ function rant(message){
     console.log('2:'+message.toUpperCase());
     console.log('3:'+message.toUpperCase());
 }
+
+//pp72
+function isSnakeEyes(num1, num2){
+    if(num1 ==1 && num2==1){
+        console.log('yay snake eyes')
+    }else{
+        console.log('não são snake eyeys')
+    }
+
+}
