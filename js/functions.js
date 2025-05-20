@@ -15,3 +15,7 @@ function helloPessoaLoggada(){
 function hello(name){
     alert('olá '+name);
 }
+
+function sum(num1,num2){
+    console.log('a soma é '+parseInt(num1+num2))
+}
