@@ -69,9 +69,9 @@ console.log("a palavra final é " + facialHair + " e o exercício está pronto")
 
 //pp 50
 // let product = {
-//     productname: "caneta", 
-//     inStock: true, 
-//     price: 1.99, 
+//     productname: "caneta",
+//     inStock: true,
+//     price: 1.99,
 //     colors:["vermelho", "azul", "verde"]
 // }
 
@@ -81,23 +81,40 @@ console.log("a palavra final é " + facialHair + " e o exercício está pronto")
 //exercício extra
 // let modules = ['css', 'html', 'js'];
 
-// let newModule = prompt('qual é novo módulo?'); 
+// let newModule = prompt('qual é novo módulo?');
 // modules.push(newModule);
 
 // for(let module of modules){
 //     console.log("o módulo é "+ module)
 // }
 
-let shoppingList = [];
-let item = prompt('o que queres comprar?');
+// let shoppingList = [];
+// let item = prompt("o que queres comprar?");
 
+// while (item.toLowerCase().trim() != "fim") {
+//   if (item != 'notadd') {
+//     shoppingList.push(item);
+//   }
 
-while(item.toLowerCase().trim() != 'fim'){
-    shoppingList.push(item)
-    item =prompt('qual é o outro item? se estiver completo coloca fim')
-}
-console.log(shoppingList)
+//   item = prompt("qual é o outro item? se estiver completo coloca fim");
+//   if (item == "apagar") {
+//     let toDelete = prompt("o que quer apagar?");
+//     shoppingList.splice(shoppingList.indexOf(toDelete), 1);
+//     item = 'notadd';
+//   }
 
-for(let element of shoppingList){
-    console.log("o item a comprar é "+element)
-}
+//   console.log(shoppingList);
+// }
+
+// for(let element of shoppingList){
+//     console.log("o item a comprar é "+element)
+// }
+
+// let note = prompt('que nota teve no módulo de jS');
+
+// while(note < 10){
+//     alert('tem qye estudar mais!');
+//     note = prompt('que nota teve agora?')
+// }
+
+//alert('parabéns, passou!')

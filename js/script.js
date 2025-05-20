@@ -79,14 +79,19 @@ alunos.pop();
 //alunos.push('Milena');
 console.log(alunos)
 
-let shoppingList = [
+function myShoppingList(){
+    let shoppingList = [
     ["batatas p/cozer", "batatas p/fritar"],
     "Feijão"
-];
-//shoppingList.push("chocolates")
-// let item = prompt("que item quer adicionar na lista?")
-// shoppingList.push(item)
-// console.log(shoppingList)
+    ];
+    
+    shoppingList.push("chocolates")
+    let item = prompt("que item quer adicionar na lista?")
+    shoppingList.push(item)
+    console.log(shoppingList)
+}
+
+
 
 //Arrays: outros métodos
 // let mix = alunos.concat(shoppingList)
@@ -129,11 +134,13 @@ let shoppingList = [
 // }
 
 
-// let userPass = prompt('Insira uma pass com o mínimo de 6 caracteres');
+function myPass(){
+    let userPass = prompt('Insira uma pass com o mínimo de 6 caracteres');
 
 
-// while(userPass.length < 6) {
-//     userPass = prompt('Password Inválida. Insira uma pass com o mínimo de 6 caracteres');
-// }
+    while(userPass.length < 6) {
+        userPass = prompt('Password Inválida. Insira uma pass com o mínimo de 6 caracteres');
+    }
 
-// alert('pass ok!');
+    alert('pass ok!');
+}
