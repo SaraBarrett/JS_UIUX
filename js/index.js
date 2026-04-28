@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Aqui vão estar todos os exs da aula
 //pp16
 let myLuckyNumber = 16;

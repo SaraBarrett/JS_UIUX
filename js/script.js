@@ -1,3 +1,21 @@
+
+
+alert("Hello world!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let myClass = "Turma UI/UX";
 let myLoginName = null;
 
@@ -53,8 +71,20 @@ console.log(moduleName);
 console.log(moduleName[10]);
 console.log("o tamanho da variável é " + moduleName.length);
 
-let myFirstName = "Sara";
-let mySecondName = "Monteiro";
+let myFirstName = 'Sara';
+let mySecondName = 'Monteiro';
+
+let number1 = 6;
+let number2 = 10;
+
+alert('Nome: ' + myFirstName + ' ' + mySecondName);
+alert('Número 1: ' + number1);
+alert('Número 2: ' + number2);
+
+
+
+
+
 let fullName = myFirstName + " " + mySecondName;
 
 let myEmail = "saraMarmonteiro";
@@ -72,26 +102,21 @@ console.log(myEmail.indexOf("M"));
 // } else {
 //   alert("vota em consciência");
 // }
-let alunos = ['Isabele', 'Luís', 'Hugo', 'Bárbara'];
+let alunos = ["Isabele", "Luís", "Hugo", "Bárbara"];
 alunos.pop();
 
 //alunos.push('Tiago');
 //alunos.push('Milena');
-console.log(alunos)
+console.log(alunos);
 
-function myShoppingList(){
-    let shoppingList = [
-    ["batatas p/cozer", "batatas p/fritar"],
-    "Feijão"
-    ];
-    
-    shoppingList.push("chocolates")
-    let item = prompt("que item quer adicionar na lista?")
-    shoppingList.push(item)
-    console.log(shoppingList)
+function myShoppingList() {
+  let shoppingList = [["batatas p/cozer", "batatas p/fritar"], "Feijão"];
+
+  shoppingList.push("chocolates");
+  let item = prompt("que item quer adicionar na lista?");
+  shoppingList.push(item);
+  console.log(shoppingList);
 }
-
-
 
 //Arrays: outros métodos
 // let mix = alunos.concat(shoppingList)
@@ -128,19 +153,18 @@ function myShoppingList(){
 
 // let quizz = ["ao nome", "à morada", "ao nif", "à profissão"];
 
-
 // for(let question of quizz){
 //     prompt("responde "+ question);
 // }
 
+function myPass() {
+  let userPass = prompt("Insira uma pass com o mínimo de 6 caracteres");
 
-function myPass(){
-    let userPass = prompt('Insira uma pass com o mínimo de 6 caracteres');
+  while (userPass.length < 6) {
+    userPass = prompt(
+      "Password Inválida. Insira uma pass com o mínimo de 6 caracteres",
+    );
+  }
 
-
-    while(userPass.length < 6) {
-        userPass = prompt('Password Inválida. Insira uma pass com o mínimo de 6 caracteres');
-    }
-
-    alert('pass ok!');
+  alert("pass ok!");
 }
